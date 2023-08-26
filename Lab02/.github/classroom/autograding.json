@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test_Q01",
+      "setup": "sudo -H pip3 install networkx parameterized",
+      "run": "python -m unittest -v test/test_Q01.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test_Q02",
+      "setup": "sudo -H pip3 install networkx parameterized",
+      "run": "python -m unittest -v test/test_Q02.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}
